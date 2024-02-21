@@ -1,0 +1,59 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Usar flexbox para alinhar verticalmente */
+    justify-content: center; /* Alinhar no centro horizontalmente */
+    align-items: flex-start; /* Alinhar no topo verticalmente */
+    height: 100vh; /* Ocupar a altura total da viewport */
+}
+
+.container {
+    text-align: center; /* Alinhar o conteúdo no centro */
+    padding-top: 50px; /* Espaçamento do topo */
+}
+
+h2 {
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+#mensagem {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
